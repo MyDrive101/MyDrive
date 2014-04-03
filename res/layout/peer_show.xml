@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/peer_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    
+    <Button
+        android:id="@+id/startDrive"
+        android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:layout_marginRight="@dimen/Desno"
+	    android:layout_marginTop="10dp"
+	    android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"
+	    android:background="@drawable/btn_select"
+	    android:text="@string/Kreni"
+	    android:textColor="@color/mainMenuText" />
+    
+    <Button
+        android:id="@+id/Obrisi"
+        android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:layout_marginLeft="@dimen/Lijevo"
+	    android:layout_marginTop="10dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignParentLeft="true"
+	    android:background="@drawable/btn_select"
+	    android:text="@string/Obrisi"
+	    android:textColor="@color/mainMenuText" />
+        
+    <TextView
+        android:id="@+id/peerInfo"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/Obrisi"
+	    android:layout_marginLeft="@dimen/Lijevo"
+	    android:layout_marginRight="@dimen/Desno"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="22dp"
+	    android:layout_alignParentBottom="true"
+	    android:background="@color/providnaPozadina"
+	    android:cacheColorHint="#00000000"
+	    android:paddingLeft="10sp"
+	    android:paddingRight="10sp"
+	    android:paddingTop="10sp"
+	    android:paddingBottom="10sp"
+	    android:textColor="@color/Korisnik"
+	    android:textSize="22sp" />
+    
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/remove_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical" 
+    android:background="@drawable/dialog"
+    android:gravity="center_horizontal" >
+	
+    <TextView
+        android:id="@+id/naslovDialoga"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingLeft="10sp"
+        android:background="@color/Titl"
+        android:paddingBottom="3sp"
+        android:paddingTop="3sp"
+        android:text="@string/Odaberi_brisi"
+        android:textColor="@color/Korisnik"
+        android:textSize="23sp" />
+    
+    <ListView
+        android:id="@+id/peerDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+	    android:background="@color/Korisnik"
+	    android:alpha="0.5"
+	    android:cacheColorHint="#00000000"
+	    android:divider="@color/Divider"
+	    android:dividerHeight="2dp" />
+
+</LinearLayout>

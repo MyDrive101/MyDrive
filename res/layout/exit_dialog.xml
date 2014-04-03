@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exit_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/dialog" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Titl"
+        android:text="@string/Upit_tekst"
+        android:textColor="@color/Korisnik"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp" />
+
+    <Button
+        android:id="@+id/btnDa"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_select"
+        android:text="@string/Da"
+        android:textColor="@color/mainMenuText"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/btnNe"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_select"
+        android:text="@string/Ne"
+        android:textColor="@color/mainMenuText"
+        android:textSize="27sp" />
+
+</RelativeLayout>

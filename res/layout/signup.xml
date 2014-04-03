@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center_vertical" >
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:hint="@string/kor_ime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/Lijevo"
+        android:layout_marginRight="@dimen/Desno"
+        android:background="@color/providnaPozadina"
+        android:alpha="0.7"
+        android:textSize="22sp"
+        android:textColor="@color/Korisnik"
+        android:paddingLeft="10sp"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/Lijevo"
+        android:layout_marginRight="@dimen/Desno"
+        android:background="@color/providnaPozadina"
+        android:alpha="0.7"
+        android:hint="@string/loz"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:textColor="@color/Korisnik"
+        android:paddingLeft="10sp" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/Lijevo"
+        android:layout_marginRight="@dimen/Desno"
+        android:background="@color/providnaPozadina"
+        android:alpha="0.7"
+        android:hint="@string/pot_loz"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:textColor="@color/Korisnik"
+        android:paddingLeft="10sp" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="@dimen/Lijevo"
+        android:layout_marginRight="@dimen/Desno"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:layout_gravity="right"
+        android:background="@drawable/btn_select"
+        android:text="@string/stvori_rac"
+        android:textColor="@color/mainMenuText"
+        android:textSize="24sp"
+        android:layout_marginBottom="60dp" />
+    
+</LinearLayout>

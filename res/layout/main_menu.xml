@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+    
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/Voznja"
+        android:alpha="0.7"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+		android:layout_marginTop="25dp"
+        android:layout_marginLeft="@dimen/Lijevo"
+        android:layout_marginRight="@dimen/Desno"
+        android:background="@drawable/btn_select"
+        android:text="@string/Voznja"
+        android:textColor="@color/mainMenuText"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/Statistika"
+        android:alpha="0.7"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+		android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/Lijevo"
+        android:layout_marginRight="@dimen/Desno"
+        android:background="@drawable/btn_select"
+        android:text="@string/Statistika" 
+        android:textColor="@color/mainMenuText"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/Postavke"
+        android:alpha="0.7"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+		android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/Lijevo"
+        android:layout_marginRight="@dimen/Desno"
+        android:background="@drawable/btn_select"
+        android:text="@string/Postavke" 
+        android:textColor="@color/mainMenuText"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/Izlaz"
+        android:alpha="0.7"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/Lijevo"
+        android:layout_marginRight="@dimen/Desno"
+        android:background="@drawable/btn_select"
+        android:text="@string/Izlaz" 
+        android:textColor="@color/mainMenuText"
+        android:textSize="27sp" />
+
+    </LinearLayout>
+</ScrollView>

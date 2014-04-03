@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Drive</string>
+    <string name="img_des">My Drive Logo</string>
+    
+    <string name="Voznja">Vožnja</string>
+    <string name="Kalendar">Kalendar</string>
+    <string name="Statistika">Statistika</string>
+    <string name="Postavke">Postavke</string>
+    
+    <string name="Izlaz">Izlaz</string>
+    <string name="Upit_tekst">Sigurno želite izaći?</string>
+    <string name="Da">Da</string>
+    <string name="Ne">Ne</string>
+    
+    <string name="Dalje">Dalje</string>
+    <string name="GPS">Švasni GPS</string>
+    
+    <string name="Prijavljen">Prijavljen:</string>
+    <string name="Korisnik">%1$s</string>
+    <string name="Prijavi">Prijavite se</string>
+    <string name="Odjavi">Odjavi!</string>
+    <string name="AutoLog">Zapamti me</string>
+    
+    <string name="Dodaj">Dodaj</string>
+    <string name="Obrisi">Obriši</string>
+    
+    <string name="kor_ime">Korisničko ime</string>
+    <string name="loz">Lozinka</string>
+    <string name="pot_loz">Potvrdi lozinku</string>
+    
+    <string name="Prijava">Prijava:</string>
+    <string name="Odaberi_brisi">Odaberite polaznika kojeg želite obrisati:</string>
+
+    <string name="Reg">Registrirajte se</string>
+    <string name="stvori_rac">Stvori račun</string>
+    <string name="ime_hint">Ime Prezime</string>
+    
+    <string name="Kreni">Kreni!</string>
+    <string name="Start">Start</string>
+    <string name="Greska">Greska</string>
+    <string name="GreskaHint">Greška:</string>
+    <string name="Stop">Stop</string>
+	<string name="Chronometer">Chronometer</string>
+	<string name="Settings">Settings</string>
+	<string name="Menu">Povratak na meni</string>
+	
+	<string name="Prolaz">Prolaz</string>
+	<string name="Pad">Pad</string>
+    
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" 
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/prijavljen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Lijevo"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Prijavljen"
+        android:textColor="@color/mainMenuText"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/korisnik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prijavljen"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="@dimen/Desno"
+        android:layout_alignParentRight="true"
+        android:text="@string/Korisnik"
+        android:textColor="@color/Korisnik"
+        android:textSize="23sp"  />
+
+    <Button
+        android:id="@+id/Odjavi"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/korisnik"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="@dimen/Desno"
+        android:background="@drawable/btn_select"
+        android:text="@string/Odjavi" 
+        android:textSize="27sp"
+        android:textColor="@color/mainMenuText"
+        />
+
+</RelativeLayout>

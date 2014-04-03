@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainMenuText">#E6E6E6</color>
+    <color name="Korisnik">#FFBF00</color>
+    <color name="Divider">#000000</color>
+    <color name="providnaPozadina">#EE424242</color>
+    <color name="Titl">#424242</color>
+    <color name="svijetlaPozadina">#EEA4A4A4</color>
+    <color name="svijetliGumb">#E06E6E6E</color>
+    <color name="tamniGumb">#E7424242</color>
+	<!-- Narančasti -->
+    <color name="tamnijiGumb">#CDDBA901</color>
+    <!-- Crni -->
+    <color name="tamnijiGumb1">#D22E2E2E</color>
+    
+    <color name="tamniObrub">#848484</color>
+    <color name="Da">#40FF00</color>
+    <color name="Ne">#FF0000</color>
+</resources>

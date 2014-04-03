@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/choose_peer"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background" >
+
+<Button
+    android:id="@+id/addItem"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="@dimen/Lijevo"
+    android:layout_marginRight="@dimen/Desno"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/btn_select"
+    android:text="@string/Dodaj"
+    android:textColor="@color/mainMenuText" />
+
+<ListView
+    android:id="@+id/peerView"
+    android:smoothScrollbar="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/Lijevo"
+    android:layout_marginRight="@dimen/Desno"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_below="@+id/addItem"
+    android:background="@color/Korisnik"
+    android:alpha="0.5"
+    android:cacheColorHint="#00000000"
+    android:divider="@color/Divider"
+    android:dividerHeight="2dp" >
+
+</ListView>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <EditText
+        android:id="@+id/editTextDialogUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/providnaPozadina"
+        android:paddingLeft="15sp"
+        android:hint="@string/ime_hint"
+        android:textSize="27sp"
+        android:textColor="@color/Korisnik" >
+ 
+        <requestFocus />
+ 
+    </EditText>
+ 
+</LinearLayout>
