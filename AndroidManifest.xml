@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.MyDrive"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	
+	<supports-screens 
+	    android:smallScreens="true"
+		android:normalScreens="true" android:largeScreens="true"
+		android:anyDensity="true">
+	</supports-screens>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.MyDrive.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.example.MyDrive.DataBaseHelper"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.example.MyDrive.LoginDataBaseAdapter"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.example.MyDrive.SignUPActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.example.MyDrive.MainMenuActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="PostavkeActivity"
+            	  android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="ChoosePeerActivity"
+            	  android:screenOrientation="portrait"
+            	  android:windowSoftInputMode="stateVisible|adjustPan" ></activity>
+        
+        <activity android:name="PeerShowActivity"
+            	  android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="TimerActivity"
+            	  android:screenOrientation="portrait"
+            	  android:windowSoftInputMode="stateVisible|adjustPan" ></activity>
+        
+        <activity android:name="PrikazGreskiActivity"
+            	  android:screenOrientation="portrait"></activity>
+ 	</application>   
+	
+</manifest>
